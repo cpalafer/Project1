@@ -157,25 +157,185 @@ p {
     color: black;
 }
   
-/* Media query: cambia el tamaño del texto para pantallas más pequeñas (móviles) y también aplica en pantallas más grandes (ordenadores) */
-@media (mix-width: 1024px){
-    p {
-      font-size: 14px;
+/*REGLAS PARA EL RESPONSIVE*/
+/* Media queries: cambia el tamaño del texto para pantallas más pequeñas (móviles) y también aplica en pantallas más grandes (ordenadores) */
+@media (max-width: 1023px) and (min-width: 768px){  /*para moviles*/
+    .tituloSitio {
+        flex-direction: column;
+        align-items: center;
     }
-}
-@media (max-width: 1023px) and (min-width: 768px){
-    p {
-      font-size: 14px;
+
+    .subtitulo {
+        margin-top: 10px;
     }
-    img {
-        width: 80%; /* Cambia el ancho de la imagen para dispositivos móviles */
+
+    .formulario {
+        margin-top: 10px;
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .seccion1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagen1 {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .texto1 {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .seccion2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagen2 {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .texto2 {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .texto3 {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .imagenes3flex {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .imagen3-1{
+        width: 100%;
+        max-width: 200px;
+    }
+    .imagen3-2{
+        width: 100%;
+        max-width: 200px;
+    }
+    .imagen3-3{
+        width: 100%;
+        max-width: 200px;
+    }
+    .imagen3-4{
+        width: 100%;
+        max-width: 200px;
+    }
+    .imagen3-5{
+        width: 100%;
+        max-width: 200px;
+    }
+    .imagen3-6 {
+        width: 100%;
+        max-width: 200px;
     }
 }
 @media (max-width: 767px) and (min-width: 320px){
-    p {
-      font-size: 14px;
+    .tituloSitio {
+        flex-direction: column;
+        align-items: center;
     }
-    img {
-        width: 80%; /* Cambia el ancho de la imagen para dispositivos móviles */
+
+    .imagenIcono {
+        margin-bottom: 10px;
+    }
+
+    .subtitulo {
+        margin-top: 10px;
+    }
+
+    .formulario {
+        margin-top: 10px;
+    }
+
+    .links {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 10px;
+    }
+
+    .seccion1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagen1 {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .texto1 {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .seccion2 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imagen2 {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .texto2 {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .texto3 {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .imagenes3flex {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .imagen3-1{
+        width: 100%;
+        max-width: 150px;
+    }
+    .imagen3-2{
+        width: 100%;
+        max-width: 150px;
+    }
+    .imagen3-3{
+        width: 100%;
+        max-width: 150px;
+    }
+    .imagen3-4{
+        width: 100%;
+        max-width: 150px;
+    }
+    .imagen3-5{
+        width: 100%;
+        max-width: 150px;
+    }
+    .imagen3-6 {
+        width: 100%;
+        max-width: 150px;
     }
 }
